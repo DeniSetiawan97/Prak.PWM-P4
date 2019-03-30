@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="description" content="Responsive Images course project" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="utf-8">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style/main.css">
+
+</head>
+
+<body>
+
+    <figure>
+        <picture>
+            <source media="(min-width: 750px)" 
+                srcset="images/profile_xl.jpg 2x, 
+                        images/profile_l.jpg" />
+            <source media="(min-width: 500px)" 
+                srcset="images/profile_medium.jpg" />
+            <img src="images/profile_small.jpg" alt="My Profile">
+        </picture>
+    </figure>
+
+    <table id="t01" >
+        <th colspan="2" style="text-align:center">
+            <h2>Biodata</h2>
+        </th>
+        <tr>
+            <td>Nama </td>
+            <td>:Deni Setiawan</td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir  </td>
+            <td>:Seputih Mataram,14-Oktober-1997</td> 
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir  </td>
+            <td>:Seputih Mataram,14-Oktober-1997</td> 
+        </tr>
+        <tr>
+            <td>Pendidikan Terakhir </td>
+            <td>:SMA N 1 Seputih Banyak Lampung Tengah</td> 
+        </tr>
+    </table>
+</body>
